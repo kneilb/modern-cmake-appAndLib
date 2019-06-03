@@ -5,4 +5,4 @@ set(app_SOURCES
 )
 
 add_executable(app ${app_SOURCES})
-target_link_libraries(app PRIVATE lib1)
+target_link_libraries(app PRIVATE lib1 lib2)
